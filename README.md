@@ -1,2 +1,1 @@
-# ratpack2
-Ratpack 2
+Uses https://packwiz.infra.link/ to make a modpack for custom mc server, now with create aeronautics.
