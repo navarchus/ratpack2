@@ -1,0 +1,13 @@
+name = "Aether Addon: Beyond Parity"
+filename = "aether_beyond_parity-1.21.1-1.0.0-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/GaNoWOiY/versions/HntmEnJA/aether_beyond_parity-1.21.1-1.0.0-neoforge.jar"
+hash-format = "sha512"
+hash = "f88b3e269864f1c8568fdaa0f60fb79ae2843ef9fdf7c8694b72eccd9d35501ecb6fcdae1bafae72dbc1273847667e26234c0bcb9103fb2062e7e7a6030476b5"
+
+[update]
+[update.modrinth]
+mod-id = "GaNoWOiY"
+version = "HntmEnJA"
