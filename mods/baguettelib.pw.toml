@@ -1,0 +1,13 @@
+name = "BaguetteLib"
+filename = "baguettelib-1.21.1-NeoForge-1.0.0.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/OfKzpbRU/versions/u7WCvvxF/baguettelib-1.21.1-NeoForge-1.0.0.jar"
+hash-format = "sha512"
+hash = "fae4f02a274a686ba3db77a354aaf35eb7ee923cee306461f7dffb332395efb25cd9ee6d455fc149cf8c6bfb265b04e265558ab2cfac4f0264ce29f434f13720"
+
+[update]
+[update.modrinth]
+mod-id = "OfKzpbRU"
+version = "u7WCvvxF"
