@@ -13,4 +13,5 @@ mod-id = "ihpnEd80"
 version = "LEOroMJx"
 
 [option]
+optional = false
 default = false
