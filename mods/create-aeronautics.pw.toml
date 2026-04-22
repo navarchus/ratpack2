@@ -1,13 +1,13 @@
 name = "Create Aeronautics"
-filename = "create-aeronautics-bundled-1.21.1-1.0.3.jar"
+filename = "create-aeronautics-bundled-1.21.1-1.1.0.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/oWaK0Q19/versions/FIeWE7UC/create-aeronautics-bundled-1.21.1-1.0.3.jar"
+url = "https://cdn.modrinth.com/data/oWaK0Q19/versions/trnVk44s/create-aeronautics-bundled-1.21.1-1.1.0.jar"
 hash-format = "sha512"
-hash = "3d7ef0e79b366567f2d5718806df16c8cb960b3ec0450c313b596b7262871d5b3f4f0635c8bce914b74908b5682c34235ada92792b1e288715aec7525193fb04"
+hash = "6d6d84c4180d03885199ba6a0929c39f8321cb6f62ee4b33ff386237905dddf5db3e46563293f089c8f1b17d24446356f54be61d60390841144fd46f91951b2d"
 
 [update]
 [update.modrinth]
 mod-id = "oWaK0Q19"
-version = "FIeWE7UC"
+version = "trnVk44s"
