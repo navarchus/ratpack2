@@ -1,0 +1,13 @@
+name = "Create: Fantastic Weapons"
+filename = "createfantasticweapons-1.1-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/r7X3Zi4H/versions/D92ktGJa/createfantasticweapons-1.1-1.21.1.jar"
+hash-format = "sha512"
+hash = "90ee541fdb9f9052d4601a9348b38c142247bce3d60236e8b640c5614dbb033f6331183dc6997d614a87bd2cf492c0757d849c0c6999cde489999b34f4d9d2bc"
+
+[update]
+[update.modrinth]
+mod-id = "r7X3Zi4H"
+version = "D92ktGJa"

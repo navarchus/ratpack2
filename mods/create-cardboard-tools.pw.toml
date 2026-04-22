@@ -1,0 +1,13 @@
+name = "Create: Cardboard Tools"
+filename = "create-cardboard-tools-1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/v4lIhYlG/versions/7U8156wv/create-cardboard-tools-1.0.jar"
+hash-format = "sha512"
+hash = "e84ba1b7bc43a7b2d589a45b1660ef752e1d5a905952b71cd4d7a357d2a33d41fd132190fefbd5d14859dcc541482491fd90ea746a9d10593f3cc6e1ed75723f"
+
+[update]
+[update.modrinth]
+mod-id = "v4lIhYlG"
+version = "7U8156wv"
