@@ -11,3 +11,8 @@ hash = "fc25b9d49cb3116416666e35cfb3c0e31d0e395f88c62b97f6e8dd992b6e11b76456787a
 [update.modrinth]
 mod-id = "uCdwusMi"
 version = "VH8Pl4yr"
+
+[option]
+optional = true
+default = true
+description = "Greater view distance"
