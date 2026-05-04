@@ -11,6 +11,3 @@ hash = "c0278621bba889292bea79a2e274b1ff1fb27aab053938d7c674eb61310d3844e3a625c9
 [update.modrinth]
 mod-id = "qNOCEdeg"
 version = "tjRXXmkQ"
-
-[option]
-default = false
