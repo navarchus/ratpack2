@@ -1,9 +1,6 @@
 name: Packwiz
 on:
   workflow_dispatch:
-  # push:
-  #   branches:
-  #     - 'main'
 permissions:
   contents: read
   pages: write
@@ -18,34 +15,22 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: master
-          # path: master
       - name: build main pack
-        # working-directory: master
         run: |
           bash -c "rm -rf $(cat .packwizignore | xargs)"
           echo "hash-format = \"sha256\"" > index.toml
           /usr/local/bin/packwiz refresh --build
           
-      # - uses: actions/checkout@v4
-      #   with:
-      #     ref: dev
-      #     path: dev
-      # - name: build dev pack
-      #   working-directory: dev
-      #   run: |
-      #     bash -c "rm -rf $(cat .packwizignore | xargs)"
-      #     echo "hash-format = \"sha256\"" > index.toml
-      #     /usr/local/bin/packwiz refresh --build
-  
-      - name: Fix permissions
-        run: |
-          chmod -c -R +rX "./" | while read line; do
-            echo "::warning title=Invalid file permissions automatically fixed::$line"
-          done
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/checkout@v4
         with:
-          path: ./
-
+          ref: dev
+          path: dev
+      - name: build dev pack
+        working-directory: dev
+        run: |
+          bash -c "rm -rf $(cat .packwizignore | xargs)"
+          echo "hash-format = \"sha256\"" > index.toml
+          /usr/local/bin/packwiz refresh --build
           
   deploy:
     runs-on: ubuntu-24.04
