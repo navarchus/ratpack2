@@ -31,6 +31,10 @@ jobs:
           bash -c "rm -rf $(cat .packwizignore | xargs)"
           echo "hash-format = \"sha256\"" > index.toml
           /usr/local/bin/packwiz refresh --build
+
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: .
           
   deploy:
     runs-on: ubuntu-24.04
@@ -40,5 +44,5 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     needs: build_packwiz_packs
     steps:
-      - uses: actions/deploy-pages@v4
+      - uses: actions/deploy-pages@v5
         id: deployment
