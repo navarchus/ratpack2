@@ -1,3 +1,4 @@
+// Fix Steel Tools
 recipes.remove(<item:mekanismtools:steel_pickaxe>);
 craftingTable.addShaped("steel_pickaxe_custom", <item:mekanismtools:steel_pickaxe>, [
     [<tag:item:c:plates/steel>,<tag:item:c:plates/steel>, <tag:item:c:plates/steel>],
@@ -32,3 +33,6 @@ craftingTable.addShaped("steel_sword_custom", <item:mekanismtools:steel_sword>, 
     [<tag:item:c:plates/steel>],
     [<tag:item:c:rods/wooden>]
 ]);
+
+// Remove leftover steel crafting recipes
+<recipetype:create:mixing>.remove(<tag:item:c:ingots/steel>);
