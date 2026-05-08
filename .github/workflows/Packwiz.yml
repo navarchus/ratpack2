@@ -12,7 +12,7 @@ jobs:
     steps:
       - run: sudo GOBIN=/usr/local/bin go install github.com/packwiz/packwiz@latest
   
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         with:
           ref: master
       - name: build main pack
@@ -21,7 +21,7 @@ jobs:
           echo "hash-format = \"sha256\"" > index.toml
           /usr/local/bin/packwiz refresh --build
           
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         with:
           ref: dev
           path: dev
