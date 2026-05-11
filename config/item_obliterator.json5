@@ -17,12 +17,6 @@
   //    Example: minecraft:diamond
   "blacklisted_items": [
     "examplemod:example_item",
-    "createbigcannons:steel_ingot",
-    "mekanism:ingot_lead",
-    "mekanism:nugget_lead",
-    "mekanism:ingot_steel",
-    "mekanism:nugget_steel",
-    "tfmg:sulfur_dust",
     "tfmg:steel_pickaxe",
     "tfmg:steel_sword",
     "tfmg:steel_axe",
