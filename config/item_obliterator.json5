@@ -16,27 +16,7 @@
   // Items here will be unusable completely
   //    Example: minecraft:diamond
   "blacklisted_items": [
-    "examplemod:example_item",
-    "createbigcannons:steel_ingot",
-    "mekanism:ingot_lead",
-    "mekanism:nugget_lead",
-    "mekanism:ingot_steel",
-    "mekanism:nugget_steel",
-    "tfmg:sulfur_dust",
-    "tfmg:steel_pickaxe",
-    "tfmg:steel_sword",
-    "tfmg:steel_axe",
-    "tfmg:steel_shovel",
-    "tfmg:steel_hoe",
-    "immersiveengineering:pickaxe_steel",
-    "immersiveengineering:shovel_steel",
-    "immersiveengineering:axe_steel",
-    "immersiveengineering:hoe_steel",
-    "immersiveengineering:sword_steel",
-    "mekanismtools:steel_helmet",
-    "mekanismtools:steel_chestplate",
-    "mekanismtools:steel_leggings",
-    "mekanismtools:steel_boots",
+    "examplemod:example_item"
   ],
   // -----------------------------------------------------------
   // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.
