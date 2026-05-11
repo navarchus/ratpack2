@@ -1,0 +1,13 @@
+name = "Unified Crops"
+filename = "unifiedcrops-1.21.1-1.0.2.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/OrjjwusR/versions/D1uNbKhB/unifiedcrops-1.21.1-1.0.2.jar"
+hash-format = "sha512"
+hash = "986648c4927916a98d5f00be3e73207093b2fe6d1c1187edf4eaa8b3060bd01568bc3eb79cf66c632c6d52e2456c52389e0975e86581c6eb217e1e6d0908dabd"
+
+[update]
+[update.modrinth]
+mod-id = "OrjjwusR"
+version = "D1uNbKhB"
